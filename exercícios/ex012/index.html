@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video add</title>
+</head>
+<body>
+    <h1>Adicionando vídeos do meu servidor no site</h1>
+    <h2>Primeira forma:</h2>
+    <video src="midia/video-mp4.mp4" width="500px" controls poster="midia/lol-image500.jpg"></video>
+    <h2>Segunda forma:</h2>
+    <video width="500px" controls poster="midia/lol-image500.jpg">
+        <source src="midia/video-mp4.mp4" type="video/mp4">
+        <source src="midia/video-mkv.mkv" type="video/mp4">
+        <source src="midia/video-webm.webm" type="video/webm">
+        <!-- source src="midia/video-ogv.ogv" type="video/ogg"-->
+        <p>O vídeo não é suportado pelo seu navegador</p>
+    </video>
+    <h1>Adicionando vídeos de serviços de vídeo:</h1>
+    <h2>Youtube:</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZvyOxZiu_Ks?si=_VsmgYGqmBkHMFSD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2>Vimeo</h2>
+        <iframe src="https://player.vimeo.com/video/876040533?h=8edf1496ed" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

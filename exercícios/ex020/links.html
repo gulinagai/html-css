@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+        .link::after, #link2::after {
+            content: ' [link]\01F517';
+        }
+        a {
+            text-decoration: none;
+            color: rgb(20, 255, 59);
+        }
+        a:visited {
+            color: rgb(22, 245, 96);
+        }
+        a:active {
+            color: rgba(138, 35, 35, 0.87);
+        }
+        a:hover {
+            color:rgb(30, 136, 136);
+        }
+        .link::before {
+            content: '\01F517[link]';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/gunagai" target="_blank" rel="external" class="link">Acesse meu instagram: @gunagai</a></li>
+        <li><a href="https://www.linkedin.com/in/gustavo-nagai/" target="_blank" rel="external" id="link2">Acesse meu LinkeDin: /gustavo-nagai</a></li>
+        <li><a href="https://www.youtube.com/gulifire" target="_blank" rel="external" class="link">Acesse meu Youtube: /gulifire</a></li>
+        
+    </ul>
+    
+    
+</body>
+</html>

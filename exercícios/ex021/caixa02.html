@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgba(12, 12, 12, 0.808);
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        header {
+            background-color: white;
+            padding-bottom: 28px;
+        }
+        header > h1 {
+            text-align: center;
+        }
+        main {
+            background-color: rgba(228, 228, 228, 0.568);
+            border-radius: 10px;
+            padding-bottom: 20px;
+            margin-top: 50px;
+        }
+        nav {
+            height: 80px;
+            background-color: rgba(255, 255, 255, 0.699);
+
+        }
+        h2#menu {
+            margin-bottom: 0;
+            padding-left: 20px;
+        }
+        a {
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: rgba(204, 184, 184, 0.767);
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            margin: 10px;
+            display: inline-block;
+        }
+        a:hover {
+            background-color: cadetblue;
+
+        }
+        #section2 {
+            background-color: white;
+            margin: 0px 20px;
+            padding-bottom: 20px;
+            border-radius: 35px 0px;
+            box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.438);
+        }
+        #section2 > article > p {
+            padding: 2%;
+            margin: 0px;
+            text-align: justify;
+        }
+        footer {
+            color: white;
+            background-color: black;
+        }
+        #joao {
+            text-indent: 30px;
+        }
+        #section1 {
+            font-size: 1.2em;
+            color: rgb(6, 122, 51);
+            text-align: center;
+            padding-top: 2px;
+            text-shadow: 1px 1px;
+        }
+        #section1 > p {
+            margin: 10px 0px;
+        }
+        aside {
+            font-style: italic;
+        }
+        footer {
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin:auto;
+        }
+        #contato {
+            padding-left: 0px;
+            padding-right: 0px;
+            background-color: black;
+        }
+        #contato:hover {
+            color: rgba(170, 39, 39, 0.822);
+        }
+        div#menuitens {
+            background-color: rgba(8, 182, 75, 0.705);
+            width: 470px;
+            padding: auto;
+            margin-left: 8px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.445);
+        }
+      
+
+        
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <h2 id="menu">MENU</h2> <hr>
+            <div id="menuitens">
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <p>Esse site é apenas um teste.</p>
+        </section>
+        <section id="section2">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quis tempore repellendus quidem mollitia ex, doloribus maxime natus commodi sit, veritatis similique qui laborum totam, alias vel soluta molestiae obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio rerum pariatur dolores nam quasi repellendus iure porro! Maiores a nobis blanditiis natus perferendis illum cum atque laudantium assumenda, molestiae excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum dicta voluptate cupiditate, ipsa recusandae totam, blanditiis, corporis et aut dolores rem? Alias repudiandae labore odit voluptate numquam, quos nisi harum.</p>
+                <aside>
+                    <p id="joao">Texto escrito por João.</p>
+                </aside>
+                <img src="imagens/noticia.jpg" alt="Notícia João">
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desenvolvido por Gustavo Nagai. <br>
+            Contato: <a href="https://instagram.com/gunagai" id="contato" rel="external" target="_blank" >@gunagai</a>
+        </p>
+    </footer>
+</body>
+</html>

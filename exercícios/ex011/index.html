@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <h2>As imagens se ajustam dependendo da largura do visor do dispositivo.</h2>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua e aumente o tamanho do navagador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="Imagem G">
+    </picture>
+    <h1>Vamos adicionar áudio ao site</h1>
+    <h2>Essa é a primeira forma:</h2>
+    <audio src="audio.mp3" autoplay controls loop></audio>
+    <h2>Essa é a segunda forma:</h2>
+    <audio preload="auto" autoplay controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        <source src="audio.ogg" type="audio/ogg">
+        <source src="audio.wav" type="audio/wav">
+        <p>Seu áudio não pôde ser carregado pois seu navegador não suporta os formatos do áudio</p>
+        <p><a href="audio.mp3">Clique aqui</a> para baixar o áudio em mp3.</p>
+    </audio>
+</body>
+</html>
