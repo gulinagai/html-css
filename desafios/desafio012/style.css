@@ -60,6 +60,9 @@ main p {
 section {
     padding: 10vh 0px;
 }
+.normal {
+    box-shadow: 1px 1px 1px 1px black;
+}
 .divisao {
     padding-bottom: 50px;
 }
@@ -68,8 +71,8 @@ section {
     color: white;
     background-size: cover;
     background-attachment: fixed;
-    display: inline;
-    
+    display: inline-block;
+    text-shadow: 1px 1px 1px black;
 }
 footer {
     background-color: black;
