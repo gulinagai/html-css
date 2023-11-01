@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 500px;
+        }
+        td {
+            border: 1px solid black;
+            height: 60px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        td.numero {
+            text-align: right;
+            vertical-align: middle;
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+            <td>D1</td>
+            <td>E1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+            <td>D2</td>
+            <td>E2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+            <td>D3</td>
+            <td>E3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td class="numero">C4</td>
+            <td>D4</td>
+            <td>E4</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>B5</td>
+            <td>C5</td>
+            <td>D5</td>
+            <td class="numero">E5</td>
+        </tr>
+    </table>
 </body>
 </html>
