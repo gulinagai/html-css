@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Radio button e Checkbox</title>
+</head>
+<body>
+    <h1>Formulário com Radio button e Checkbox</h1>
+    <form action="cadastro.php" method="get">
+                <fieldset>
+                    <legend>Sexo:</legend>
+                    <input type="radio" name="sexo" id="imasc" checked value="M"><label for="imasc">Masculino</label>
+                    <input type="radio" name="sexo" id="ifem" value="F"><label for="ifem">Feminino</label>
+                </fieldset>
+
+        
+            <fieldset>
+                <legend>Jogos favoritos:</legend>
+                <input type="checkbox" name="lol" id="ilol" checked><label for="ilol">LOL</label><br>
+                <input type="checkbox" name="gc" id="igc" checked><label for="igc">GrandChase</label><br>
+                <input type="checkbox" name="cs" id="ics"><label for="ics">Counter Strike</label><br>
+                <input type="checkbox" name="fort" id="ifort"><label for="ifort">Fortnite</label><br>
+                <input type="checkbox" name="gta" id="igta"><label for="igta">Gran Theft Auto</label><br>
+                <input type="checkbox" name="poke" id="ipoke" checked><label for="ipoke">Pokémon Emerald</label>
+            </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+    </form>
+
+    
+</body>
+</html>
