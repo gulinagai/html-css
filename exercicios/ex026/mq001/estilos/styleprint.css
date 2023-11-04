@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* Estilos para a impressão */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    padding:20px;
+}
+main {
+    line-height: 1.5em;
+}
+menu {
+    display: none;
+}
+article::after {
+    content:'Notícia de 04/11/2023';
+}
