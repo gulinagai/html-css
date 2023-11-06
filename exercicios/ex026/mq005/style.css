@@ -41,17 +41,20 @@ header a:hover {
     text-decoration: none;
     color: white;
 }
-#menuhamb {
+#iconhamb {
     background-color: black;
     color: white;
     display: block;
     text-align: center;
     padding: 10px;
 }
-#menuhamb:hover {
+#iconhamb:hover {
     background-color: white;
     color: black;
     cursor: pointer;
+}
+#itens {
+    display: none;
 }
 main {
     background-color: white;
