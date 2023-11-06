@@ -1,0 +1,16 @@
+@charset "UTF0-8";
+
+@media screen and (min-width: 769px) {
+    #iconhamb {
+        display: none;
+    }
+    #itens > ul > li  {
+        display: inline-block;
+    }
+    #itens {
+        display: block;
+    }
+    main {
+        max-width: 800px;
+    }
+}
