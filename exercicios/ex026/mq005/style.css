@@ -23,34 +23,47 @@ header h1 {
     text-align: center;
 }
 header li {
-    display: inline-block;
+    display: block;
 }
 header a {
-    display: inline-block;
     padding: 15px;
     background-color: rgb(15, 134, 170);
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.486);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.486);
-    border-radius: 6px;
     text-decoration: none;
     color: white;
+    text-align: center;
+    display: block;
 }
 header a:hover {
     background-color: rgb(92, 160, 180);
     text-decoration: none;
     color: white;
 }
+#menuhamb {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+#menuhamb:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 main {
     background-color: white;
-    width: 800px;
+    width: 80vw;
     margin: auto;
     padding: 15px;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.445);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.445);
 }
 main h2 {
     padding-bottom: 10px;
 }
 main p {
     line-height: 1.5em;
+    text-indent: 20px;
 }
